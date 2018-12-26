@@ -1,0 +1,428 @@
+[
+  {
+    "id": 1,
+    "name": "Mario",
+    "image": "https://www.ssbwiki.com/images/thumb/4/44/Mario_SSBU.png/250px-Mario_SSBU.png"
+  },
+  {
+    "id": 2,
+    "name": "Donkey Kong",
+    "image": "https://www.ssbwiki.com/images/thumb/c/c9/Donkey_Kong_SSBU.png/250px-Donkey_Kong_SSBU.png"
+  },
+  {
+    "id": 3,
+    "name": "Link",
+    "image": "https://www.ssbwiki.com/images/thumb/8/84/Link_SSBU.png/250px-Link_SSBU.png"
+  },
+  {
+    "id": 4,
+    "name": "Samus",
+    "image": "https://www.ssbwiki.com/images/thumb/0/03/Samus_SSBU.png/250px-Samus_SSBU.png"
+  },
+  {
+    "id": 5,
+    "name": "Dark Samus",
+    "image": "https://www.ssbwiki.com/images/thumb/a/a6/Dark_Samus_SSBU.png/250px-Dark_Samus_SSBU.png"
+  },
+  {
+    "id": 6,
+    "name": "Yoshi",
+    "image": "https://www.ssbwiki.com/images/thumb/8/8d/Yoshi_SSBU.png/250px-Yoshi_SSBU.png"
+  },
+  {
+    "id": 7,
+    "name": "Kirby",
+    "image": "https://www.ssbwiki.com/images/thumb/0/07/Kirby_SSBU.png/250px-Kirby_SSBU.png"
+  },
+  {
+    "id": 8,
+    "name": "Fox",
+    "image": "https://www.ssbwiki.com/images/thumb/2/2f/Fox_SSBU.png/250px-Fox_SSBU.png"
+  },
+  {
+    "id": 9,
+    "name": "Pikachu",
+    "image": "https://www.ssbwiki.com/images/thumb/9/93/Pikachu_SSBU.png/250px-Pikachu_SSBU.png"
+  },
+  {
+    "id": 10,
+    "name": "Luigi",
+    "image": "https://www.ssbwiki.com/images/thumb/b/bb/Luigi_SSBU.png/250px-Luigi_SSBU.png"
+  },
+  {
+    "id": 11,
+    "name": "Ness",
+    "image": "https://www.ssbwiki.com/images/thumb/8/82/Ness_SSBU.png/250px-Ness_SSBU.png"
+  },
+  {
+    "id": 12,
+    "name": "Captain Falcon",
+    "image": "https://www.ssbwiki.com/images/thumb/d/da/Captain_Falcon_SSBU.png/250px-Captain_Falcon_SSBU.png"
+  },
+  {
+    "id": 13,
+    "name": "Jigglypuff",
+    "image": "https://www.ssbwiki.com/images/thumb/6/6a/Jigglypuff_SSBU.png/250px-Jigglypuff_SSBU.png"
+  },
+  {
+    "id": 14,
+    "name": "Peach",
+    "image": "https://www.ssbwiki.com/images/thumb/7/74/Peach_SSBU.png/250px-Peach_SSBU.png"
+  },
+  {
+    "id": 15,
+    "name": "Daisy",
+    "image": "https://www.ssbwiki.com/images/thumb/2/21/Daisy_SSBU.png/250px-Daisy_SSBU.png"
+  },
+  {
+    "id": 16,
+    "name": "Bowser",
+    "image": "https://www.ssbwiki.com/images/thumb/4/49/Bowser_SSBU.png/250px-Bowser_SSBU.png"
+  },
+  {
+    "id": 17,
+    "name": "Ice Climbers",
+    "image": "https://www.ssbwiki.com/images/thumb/1/12/Ice_Climbers_SSBU.png/250px-Ice_Climbers_SSBU.png"
+  },
+  {
+    "id": 18,
+    "name": "Sheik",
+    "image": "https://www.ssbwiki.com/images/thumb/0/00/Sheik_SSBU.png/250px-Sheik_SSBU.png"
+  },
+  {
+    "id": 19,
+    "name": "Zelda",
+    "image": "https://www.ssbwiki.com/images/thumb/c/c8/Zelda_SSBU.png/250px-Zelda_SSBU.png"
+  },
+  {
+    "id": 20,
+    "name": "Dr. Mario",
+    "image": "https://www.ssbwiki.com/images/thumb/3/3f/Dr._Mario_SSBU.png/250px-Dr._Mario_SSBU.png"
+  },
+  {
+    "id": 21,
+    "name": "Pichu",
+    "image": "https://www.ssbwiki.com/images/thumb/c/c1/Pichu_SSBU.png/250px-Pichu_SSBU.png"
+  },
+  {
+    "id": 22,
+    "name": "Falco",
+    "image": "https://www.ssbwiki.com/images/thumb/8/80/Falco_SSBU.png/250px-Falco_SSBU.png"
+  },
+  {
+    "id": 23,
+    "name": "Marth",
+    "image": "https://www.ssbwiki.com/images/thumb/e/e9/Marth_SSBU.png/250px-Marth_SSBU.png"
+  },
+  {
+    "id": 24,
+    "name": "Lucina",
+    "image": "https://www.ssbwiki.com/images/thumb/d/dc/Lucina_SSBU.png/250px-Lucina_SSBU.png"
+  },
+  {
+    "id": 25,
+    "name": "Young Link",
+    "image": "https://www.ssbwiki.com/images/thumb/8/8a/Young_Link_SSBU.png/250px-Young_Link_SSBU.png"
+  },
+  {
+    "id": 26,
+    "name": "Ganondorf",
+    "image": "https://www.ssbwiki.com/images/thumb/9/91/Ganondorf_SSBU.png/250px-Ganondorf_SSBU.png"
+  },
+  {
+    "id": 27,
+    "name": "Mewtwo",
+    "image": "https://www.ssbwiki.com/images/thumb/d/de/Mewtwo_SSBU.png/250px-Mewtwo_SSBU.png"
+  },
+  {
+    "id": 28,
+    "name": "Roy",
+    "image": "https://www.ssbwiki.com/images/thumb/9/9d/Roy_SSBU.png/250px-Roy_SSBU.png"
+  },
+  {
+    "id": 29,
+    "name": "Chrom",
+    "image": "https://www.ssbwiki.com/images/thumb/5/57/Chrom_SSBU.png/250px-Chrom_SSBU.png"
+  },
+  {
+    "id": 30,
+    "name": "Mr. Game & Watch",
+    "image": "https://www.ssbwiki.com/images/thumb/c/cb/Mr._Game_%26_Watch_SSBU.png/250px-Mr._Game_%26_Watch_SSBU.png"
+  },
+  {
+    "id": 31,
+    "name": "Meta Knight",
+    "image": "https://www.ssbwiki.com/images/thumb/0/00/Meta_Knight_SSBU.png/250px-Meta_Knight_SSBU.png"
+  },
+  {
+    "id": 32,
+    "name": "Pit",
+    "image": "https://www.ssbwiki.com/images/thumb/3/38/Pit_SSBU.png/250px-Pit_SSBU.png"
+  },
+  {
+    "id": 33,
+    "name": "Dark Pit",
+    "image": "https://www.ssbwiki.com/images/thumb/0/09/Dark_Pit_SSBU.png/250px-Dark_Pit_SSBU.png"
+  },
+  {
+    "id": 34,
+    "name": "Zero Suit Samus",
+    "image": "https://www.ssbwiki.com/images/thumb/f/f0/Zero_Suit_Samus_SSBU.png/250px-Zero_Suit_Samus_SSBU.png"
+  },
+  {
+    "id": 35,
+    "name": "Wario",
+    "image": "https://www.ssbwiki.com/images/thumb/0/04/Wario_SSBU.png/250px-Wario_SSBU.png"
+  },
+  {
+    "id": 36,
+    "name": "Snake",
+    "image": "https://www.ssbwiki.com/images/thumb/0/02/Snake_SSBU.png/250px-Snake_SSBU.png"
+  },
+  {
+    "id": 37,
+    "name": "Ike",
+    "image": "https://www.ssbwiki.com/images/thumb/8/86/Ike_SSBU.png/250px-Ike_SSBU.png"
+  },
+  {
+    "id": 38,
+    "name": "Pokémon Trainer",
+    "image": "https://www.ssbwiki.com/images/thumb/0/0f/Pok%C3%A9mon_Trainer_SSBU.png/250px-Pok%C3%A9mon_Trainer_SSBU.png"
+  },
+  {
+    "id": 39,
+    "name": "Squirtle",
+    "image": "https://www.ssbwiki.com/images/thumb/7/79/Squirtle_SSBU.png/250px-Squirtle_SSBU.png"
+  },
+  {
+    "id": 40,
+    "name": "Ivysaur",
+    "image": "https://www.ssbwiki.com/images/thumb/5/52/Ivysaur_SSBU.png/250px-Ivysaur_SSBU.png"
+  },
+  {
+    "id": 41,
+    "name": "Charizard",
+    "image": "https://www.ssbwiki.com/images/thumb/2/21/Charizard_SSBU.png/250px-Charizard_SSBU.png"
+  },
+  {
+    "id": 42,
+    "name": "Diddy Kong",
+    "image": "https://www.ssbwiki.com/images/thumb/a/a7/Diddy_Kong_SSBU.png/250px-Diddy_Kong_SSBU.png"
+  },
+  {
+    "id": 43,
+    "name": "Lucas",
+    "image": "https://www.ssbwiki.com/images/thumb/8/81/Lucas_SSBU.png/250px-Lucas_SSBU.png"
+  },
+  {
+    "id": 44,
+    "name": "Sonic",
+    "image": "https://www.ssbwiki.com/images/thumb/b/ba/Sonic_SSBU.png/250px-Sonic_SSBU.png"
+  },
+  {
+    "id": 45,
+    "name": "King Dedede",
+    "image": "https://www.ssbwiki.com/images/thumb/f/f5/King_Dedede_SSBU.png/250px-King_Dedede_SSBU.png"
+  },
+  {
+    "id": 46,
+    "name": "Olimar",
+    "image": "https://www.ssbwiki.com/images/thumb/b/b3/Olimar_SSBU.png/250px-Olimar_SSBU.png"
+  },
+  {
+    "id": 47,
+    "name": "Lucario",
+    "image": "https://www.ssbwiki.com/images/thumb/0/08/Lucario_SSBU.png/250px-Lucario_SSBU.png"
+  },
+  {
+    "id": 48,
+    "name": "R.O.B.",
+    "image": "https://www.ssbwiki.com/images/thumb/3/38/R.O.B._%28JPN%29_SSBU.png/250px-R.O.B._%28JPN%29_SSBU.png"
+  },
+  {
+    "id": 49,
+    "name": "Toon Link",
+    "image": "https://www.ssbwiki.com/images/thumb/5/56/Toon_Link_SSBU.png/250px-Toon_Link_SSBU.png"
+  },
+  {
+    "id": 50,
+    "name": "Wolf",
+    "image": "https://www.ssbwiki.com/images/thumb/8/8a/Wolf_SSBU.png/250px-Wolf_SSBU.png"
+  },
+  {
+    "id": 51,
+    "name": "Villager",
+    "image": "https://www.ssbwiki.com/images/thumb/a/ac/Villager_SSBU.png/250px-Villager_SSBU.png"
+  },
+  {
+    "id": 52,
+    "name": "Mega Man",
+    "image": "https://www.ssbwiki.com/images/thumb/4/46/Mega_Man_SSBU.png/250px-Mega_Man_SSBU.png"
+  },
+  {
+    "id": 53,
+    "name": "Wii Fit Trainer",
+    "image": "https://www.ssbwiki.com/images/thumb/f/ff/Wii_Fit_Trainer_SSBU.png/250px-Wii_Fit_Trainer_SSBU.png"
+  },
+  {
+    "id": 54,
+    "name": "Rosalina & Luma",
+    "image":"https://www.ssbwiki.com/images/thumb/1/16/Rosalina_%26_Luma_SSBU.png/250px-Rosalina_%26_Luma_SSBU.png"
+  },
+  {
+    "id": 55,
+    "name": "Little Mac",
+    "image": "https://www.ssbwiki.com/images/thumb/5/53/Little_Mac_SSBU.png/250px-Little_Mac_SSBU.png"
+  },
+  {
+    "id": 56,
+    "name": "Greninja",
+    "image": "https://www.ssbwiki.com/images/thumb/d/da/Greninja_SSBU.png/250px-Greninja_SSBU.png"
+  },
+  {
+    "id": 57,
+    "name": "Mii Brawler",
+    "image": "https://www.ssbwiki.com/images/thumb/e/e4/Mii_Brawler_SSBU.png/250px-Mii_Brawler_SSBU.png"
+  },
+  {
+    "id": 58,
+    "name": "Mii Swordfighter",
+    "image": "https://www.ssbwiki.com/images/thumb/f/fa/Mii_Swordfighter_SSBU.png/250px-Mii_Swordfighter_SSBU.png"
+  },
+  {
+    "id": 59,
+    "name": "Mii Gunner",
+    "image": "https://www.ssbwiki.com/images/thumb/e/e5/Mii_Gunner_SSBU.png/250px-Mii_Gunner_SSBU.png"
+  },
+  {
+    "id": 60,
+    "name": "Palutena",
+    "image": "https://www.ssbwiki.com/images/thumb/6/6b/Palutena_SSBU.png/250px-Palutena_SSBU.png"
+  },
+  {
+    "id": 61,
+    "name": "Pac-Man",
+    "image": "https://www.ssbwiki.com/images/thumb/0/03/Pac-Man_SSBU.png/250px-Pac-Man_SSBU.png"
+  },
+  {
+    "id": 62,
+    "name": "Robin",
+    "image": "https://www.ssbwiki.com/images/thumb/8/82/Robin_SSBU.png/250px-Robin_SSBU.png"
+  },
+  {
+    "id": 63,
+    "name": "Shulk",
+    "image": "https://www.ssbwiki.com/images/thumb/0/0f/Shulk_SSBU.png/250px-Shulk_SSBU.png"
+  },
+  {
+    "id": 64,
+    "name": "Bowser Jr.",
+    "image": "https://www.ssbwiki.com/images/thumb/2/2b/Bowser_Jr._SSBU.png/250px-Bowser_Jr._SSBU.png"
+  },
+  {
+    "id": 65,
+    "name": "Larry Koopa",
+    "image": "https://www.ssbwiki.com/images/thumb/4/4d/Larry_Koopa.png/200px-Larry_Koopa.png"
+  },
+  {
+    "id": 66,
+    "name": "Roy Koopa",
+    "image": "https://www.ssbwiki.com/images/thumb/a/ae/Roy_Koopa.png/200px-Roy_Koopa.png"
+  },
+  {
+    "id": 67,
+    "name": "Wendy O. Koopa",
+    "image": "https://www.ssbwiki.com/images/thumb/4/42/Wendy_O._Koopa.png/200px-Wendy_O._Koopa.png"
+  },
+  {
+    "id": 68,
+    "name": "Iggy Koopa",
+    "image": "https://www.ssbwiki.com/images/thumb/0/06/Iggy_Koopa.png/200px-Iggy_Koopa.png"
+  },
+  {
+    "id": 69,
+    "name": "Morton Koopa Jr.",
+    "image": "https://www.ssbwiki.com/images/thumb/f/f8/Morton_Koopa_Jr.png/200px-Morton_Koopa_Jr.png"
+  },
+  {
+    "id": 70,
+    "name": "Lemmy Koopa",
+    "image": "https://www.ssbwiki.com/images/thumb/b/bb/Lemmy_Koopa.png/200px-Lemmy_Koopa.png"
+  },
+  {
+    "id": 71,
+    "name": "Ludwig Von Koopa",
+    "image": "https://www.ssbwiki.com/images/thumb/f/f9/Ludwig_von_Koopa.png/200px-Ludwig_von_Koopa.png"
+  },
+  {
+    "id": 72,
+    "name": "Duck Hunt",
+    "image": "https://www.ssbwiki.com/images/thumb/d/d8/Duck_Hunt_SSBU.png/250px-Duck_Hunt_SSBU.png"
+  },
+  {
+    "id": 73,
+    "name": "Ryu",
+    "image": "https://www.ssbwiki.com/images/thumb/6/61/Ryu_SSBU.png/250px-Ryu_SSBU.png"
+  },
+  {
+    "id": 74,
+    "name": "Ken",
+    "image": "https://www.ssbwiki.com/images/thumb/f/f6/Ken_SSBU.png/250px-Ken_SSBU.png"
+  },
+  {
+    "id": 75,
+    "name": "Cloud",
+    "image": "https://www.ssbwiki.com/images/thumb/b/b3/Cloud_SSBU.png/250px-Cloud_SSBU.png"
+  },
+  {
+    "id": 76,
+    "name": "Corrin",
+    "image": "https://www.ssbwiki.com/images/thumb/c/c4/Corrin_SSBU.png/250px-Corrin_SSBU.png"
+  },
+  {
+    "id": 77,
+    "name": "Bayonetta",
+    "image": "https://www.ssbwiki.com/images/thumb/7/7c/Bayonetta_SSBU.png/250px-Bayonetta_SSBU.png"
+  },
+  {
+    "id": 78,
+    "name": "Inkling",
+    "image": "https://www.ssbwiki.com/images/thumb/2/2e/Inkling_SSBU.png/250px-Inkling_SSBU.png"
+  },
+  {
+    "id": 79,
+    "name": "Ridley",
+    "image": "https://www.ssbwiki.com/images/thumb/2/27/Ridley_SSBU.png/250px-Ridley_SSBU.png"
+  },
+  {
+    "id": 80,
+    "name": "Simon",
+    "image": "https://www.ssbwiki.com/images/thumb/9/95/Simon_SSBU.png/250px-Simon_SSBU.png"
+  },
+  {
+    "id": 81,
+    "name": "Richter",
+    "image": "https://www.ssbwiki.com/images/thumb/c/c2/Richter_SSBU.png/250px-Richter_SSBU.png"
+  },
+  {
+    "id": 82,
+    "name": "King K. Rool",
+    "image": "https://www.ssbwiki.com/images/thumb/b/b6/King_K._Rool_SSBU.png/250px-King_K._Rool_SSBU.png"
+  },
+  {
+    "id": 83,
+    "name": "Isabelle",
+    "image": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/250px-Isabelle_SSBU.png"
+  },
+  {
+    "id": 84,
+    "name": "Incineroar",
+    "image": "https://www.ssbwiki.com/images/thumb/c/c4/Incineroar_SSBU.png/250px-Incineroar_SSBU.png"
+  },
+  {
+    "id": 85,
+    "name": "Piranha Plant",
+    "image": "https://www.ssbwiki.com/images/thumb/f/f0/Piranha_Plant_SSBU.png/250px-Piranha_Plant_SSBU.png"
+  }
+
+]
