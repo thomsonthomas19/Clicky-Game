@@ -14,7 +14,7 @@ class App extends Component {
     fighters,
     curScore: 0,
     highScore: 0,
-    msg: "",
+    msg: "Choose your fighters!",
     clicked: []
   };
 
@@ -30,52 +30,84 @@ class App extends Component {
   };
   
   shuffleFighters = () => {
-    let shuffledFighters = shuffleArray(fighters);
+    let shuffledFighters = this.shuffleArray(fighters);
     this.setState({ fighters: shuffledFighters });
   };
   
   raiseScore = () => {
-    const newScore = this.state.currentScore + 1;
+    const newScore = this.state.curScore + 1;
     this.setState({
       curScore: newScore,
       msg: ""
     });
+    this.setState({ msg: "Good One!" });
     if (newScore >= this.state.highScore) {
       this.setState({ highScore: newScore });
-      this.setState({ msg: "New high score" });
     }
     this.shuffleFighters();
   };
   
   clickEvent = id => {
-    if (this.state.clicked.indexOf(id) === -1) {
-      this.raiseScore();
-      this.setState({ clicked: this.state.clicked.concat(id) });
-    } else {
-      this.resetBoard();
-    }
+    var guessedCorrectly = null;
+    // console.log(this.state.fighters);
+    const updatedFighters = this.state.fighters.map(fighter => {
+      console.log(guessedCorrectly);
+      if (fighter.id === id && !fighter.clicked) {
+          fighter.clicked = true;
+          guessedCorrectly = true;
+        } else {
+          // guessedCorrectly = false;
+        }
+      return fighter;
+
+    })
+    // console.log(updatedFighters);
+    // const updatedFighters = this.state.fighters.map(fighter => {
+    //   if (fighter.id == id) {
+    //     if (!fighter.clicked) {
+    //       fighter.clicked = true;
+    //       guessedCorrectly = true;
+    //     }
+    //   }
+    // })
+    console.log(guessedCorrectly, "final guess");
+    (guessedCorrectly) ?
+    this.raiseScore(updatedFighters) :
+    this.resetBoard(updatedFighters)
+    // if (this.state.clicked.indexOf(id) === -1) {
+    //   this.raiseScore();
+    //   this.setState({ clicked: this.state.clicked.concat(id) });
+    // } else {
+    //   this.resetBoard();
+    // }
   };
   
-  resetBoard = () => {
+  resetBoard = (fighterList) => {
+    const resetFighterList = fighterList.map(fighter => {
+      fighter.clicked = false;
+      return fighter;
+    })
     this.setState({
-      currentScore: 0,
+      curScore: 0,
       highScore: this.state.highScore,
       msg: "Better luck next time",
       clicked: []
     });
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
     this.shuffleFighters();
   };
   
   
   render() {
     return (
+      <div>
+      <ScoreCard
+      title="Smash Fighters Click Game"
+      curScore={this.state.curScore}
+      highScore={this.state.highScore}
+      msg={this.state.msg}
+      />
       <Wrapper>
-        <ScoreCard
-        title="Smash Fighters Click Game"
-        curscore={this.state.curScore}
-        highScore={this.state.highScore}
-        msg={this.state.msg}
-        />
         {this.state.fighters.map(fighter => {
           return (
             <FighterCard
@@ -92,6 +124,7 @@ class App extends Component {
             )
           })}
       </Wrapper>
+      </div>
     );
   }
 }

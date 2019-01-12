@@ -1,7 +1,7 @@
 .card {
   /* background: #fff; */
   border-radius: 2px;
-  height: 325px;
+  /* height: 325px; */
   margin: 1rem;
   position: relative;
   width: 325px;
@@ -10,18 +10,18 @@
 }
 
 .card > .img-container {
-  height: 60%;
+  height: 100%;
   overflow: hidden;
   text-align: center;
-  background:gray;
+  background:rgb(98, 155, 219);
 }
 .card > .img-container:hover {
-  background:rgb(100, 100, 100);
+  background:rgb(242, 180, 94);
 }
-.card > .img-container > img {
+/* .card > .img-container > img {
   width: 60%
-}
-
+} */
+/* 
 .card > .content {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -34,5 +34,5 @@
 
 .card > .content > ul > li {
   margin-top: 18px;
-}
+} */
 

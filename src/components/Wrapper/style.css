@@ -8,4 +8,6 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+  background: rgb(38,4,61);
+  background: linear-gradient(180deg, rgba(38,4,61,1) 0%, rgba(121,9,9,1) 53%, rgba(57,55,140,1) 100%);
 }

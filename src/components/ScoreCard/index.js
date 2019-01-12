@@ -1,18 +1,24 @@
 import React from "react";
 import "./style.css";
 
-const ScoreCard = props => (
-  <div>
-        <h1>{props.title}</h1>
-    <ul>
+function ScoreCard(props) {
 
-      <li id="rw">{props.msg}</li>
+  return (
+  <div className = "scorecard">
+        <h1
+        className = "text-center">{props.title}</h1>
+        <br/>
+    <div
+    className = "row">
 
-      <li>Current Score: {props.curscore}</li>
+      <h3 className = "col-4 text-center">Current Score: {props.curScore} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 
-      <li>High Score: {props.highScore}</li>
-    </ul>
+      <h3 className = "col-4 text-center" id="rw">{props.msg}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+
+      <h3 className = "col-4 text-center">High Score: {props.highScore}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+    </div>
   </div>
 );
+ }
 
 export default ScoreCard;

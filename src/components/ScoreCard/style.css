@@ -1,11 +1,13 @@
-.wrapper {
-  padding-top: 50px;
-  background: #ECEFF1;
-  height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  padding: 20px;
-  justify-content: space-around;
-  align-content: flex-start;
-  overflow: auto;
+.title {
+margin-left: auto;
+margin-right: auto;
+}
+
+.scorecard {
+  /* background-image: url('https://purepng.com/public/uploads/large/purepng.com-super-smash-bros-logo-newsuper-smash-brose3logonintendoblack-and-whitemodern-21528619282yzmut.png');
+  background-size:60% 60%; */
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(38,4,61,1) 100%, rgba(121,9,9,1) 100%, rgba(57,55,140,1) 100%);
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
